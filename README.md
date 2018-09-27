@@ -23,7 +23,8 @@
 
 1. sklearn need to be installed (pip install sklearn) <br />
 2. svm.SVC is used which is a wrapper of libsvm <br />
-3. param(C=1.4,Karnel='rbf',Gamma=.0008,Decision='ovo') <br />
+3. data is loaded with load_svmlight_file and features and levels are converted to numpy array <br />
+3. param(C=1.4,Karnel='rbf',Gamma=.0008,Decision='ovo') is used as it gave the best result for given dataset <br />
 4. result of svm is <br />
 	accuracy=0.9153318077803204 <br />
 	confution matrix= <br />
