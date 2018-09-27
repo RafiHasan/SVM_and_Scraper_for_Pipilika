@@ -1,4 +1,4 @@
-# SVM_and_Scraper_for_Pipilika
+# SVM_and_Scraper_for_Pipilika (Python 3.5)
 
 ##**TASK 1.1(spider latestnews.py):** <br />
 (cmd scrapy genspider latestnews , scrapy run spider latestnews.py) <br />
