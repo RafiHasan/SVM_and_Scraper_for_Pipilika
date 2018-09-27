@@ -1,6 +1,6 @@
 # SVM_and_Scraper_for_Pipilika
 
-**TASK 1.1(spider latestnews.py):** <br />
+##**TASK 1.1(spider latestnews.py):** <br />
 (cmd scrapy run spider latestnews.py) <br />
 1. Need to install scrapy(pip install scrapy) <br />
 2. Also may need to install pywin32(pip install pywin32) <br />
@@ -8,7 +8,7 @@
 4. data is formated as (title,date,Caterogy,details) <br />
 5. 3200 scroll page is scraped <br />
 
-TASK 1.2(project lastnews): <br />
+##**TASK 1.2(project lastnews):** <br />
 (cmd scrapy crawl lnews) <br />
 1.Docker toolbox needs to be installed(https://docs.docker.com/toolbox/toolbox_install_windows) <br />
 2.splash needs to be installed(pip install scrapy_splash) <br />
@@ -18,7 +18,7 @@ TASK 1.2(project lastnews): <br />
 6.data is formated as (Like,title,date,Caterogy,details)(like is -1 if could not find the link) <br />
 
 
-TASK 2(MultiSVM.py): <br />
+##**TASK 2(MultiSVM.py):** <br />
 
 1.sklearn need to be installed <br />
 2.svm.SVC is used which is a wrapper of libsvm <br />
