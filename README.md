@@ -6,7 +6,7 @@
 2. Also may need to install pywin32(pip install pywin32) <br />
 3. Scraped data is stored in news.txt file <br />
 4. data is formated as (title,date,Caterogy,details) <br />
-5. 121829 news article is scraped <br />
+5. 121829 news article is scraped (https://drive.google.com/drive/folders/1i9-rdcnhDTKcT_QaVCUPVKruz9g4KadO?usp=sharing) <br />
 
 ##**TASK 1.2(project lastnews):** <br />
 (cmd scrapy startproject lastnews (for creating project), scrapy crawl lnews(for start crawling)) <br />
@@ -26,7 +26,7 @@ Previous part of the task one can only crawl into pages and collect raw html dat
         } <br /> DUPEFILTER_CLASS= 'scrapy_splash.SplashAwareDupeFilter' <br /> HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage' <br /> ROBOTSTXT_OBEY = False <br />
 5. Scraped data is stored in newslike.txt file <br />
 6. data is formated as (Likecount,title,date,Caterogy,details)(like is -1 if could not find the link) <br />
-7. 250+ scroll page is scraped <br />
+7. 10137 news is scraped (https://drive.google.com/drive/folders/1i9-rdcnhDTKcT_QaVCUPVKruz9g4KadO?usp=sharing) <br />
 
 
 ##**TASK 2(MultiSVM.py):** <br />
