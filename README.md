@@ -12,8 +12,19 @@
 (cmd scrapy startproject lastnews , scrapy crawl lnews) <br />
 1. Docker toolbox needs to be installed(https://docs.docker.com/toolbox/toolbox_install_windows) <br />
 2. splash needs to be installed(pip install scrapy_splash) <br />
-3. splash server needs to be running (https://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash) <br />
-4. In setting.py SPLASH_URL=docker url <br />
+3. splash server needs to be running (https://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash)also in run command must include --disable-private-mode <br />
+4. In setting.py SPLASH_URL=docker url DOWNLOADER_MIDDLEWARES= {
+            'scrapy_splash.SplashCookiesMiddleware': 723,
+            'scrapy_splash.SplashMiddleware': 725,
+            'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+        }
+SPIDER_MIDDLEWARES= {
+            'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
+        }
+
+DUPEFILTER_CLASS= 'scrapy_splash.SplashAwareDupeFilter'
+HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
+ROBOTSTXT_OBEY = False <br />
 5. Scraped data is stored in latestnews.txt file <br />
 6. data is formated as (Like,title,date,Caterogy,details)(like is -1 if could not find the link) <br />
 7. 250+ scroll page is scraped <br />
