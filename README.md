@@ -1,7 +1,7 @@
 # SVM_and_Scraper_for_Pipilika
 
 ##**TASK 1.1(spider latestnews.py):** <br />
-(cmd scrapy run spider latestnews.py) <br />
+(cmd scrapy genspider latestnews , scrapy run spider latestnews.py) <br />
 1. Need to install scrapy(pip install scrapy) <br />
 2. Also may need to install pywin32(pip install pywin32) <br />
 3. Scraped data is stored in news.txt file <br />
@@ -9,7 +9,7 @@
 5. 3200 scroll page is scraped <br />
 
 ##**TASK 1.2(project lastnews):** <br />
-(cmd scrapy crawl lnews) <br />
+(cmd scrapy startproject lastnews , scrapy crawl lnews) <br />
 1. Docker toolbox needs to be installed(https://docs.docker.com/toolbox/toolbox_install_windows) <br />
 2. splash needs to be installed(pip install scrapy_splash) <br />
 3. splash server needs to be running (https://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash) <br />
