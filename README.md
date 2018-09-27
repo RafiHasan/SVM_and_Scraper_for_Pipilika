@@ -20,7 +20,7 @@
 
 ##**TASK 2(MultiSVM.py):** <br />
 
-1. sklearn need to be installed <br />
+1. sklearn need to be installed (pip install sklearn) <br />
 2. svm.SVC is used which is a wrapper of libsvm <br />
 3. param(C=1.4,Karnel='rbf',Gamma=.0008,Decision='ovo') <br />
 4. result of svm is <br />
