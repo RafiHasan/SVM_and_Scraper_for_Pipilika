@@ -13,7 +13,7 @@
 1. Docker toolbox needs to be installed(https://docs.docker.com/toolbox/toolbox_install_windows) <br />
 2. splash needs to be installed(pip install scrapy_splash) <br />
 3. splash server needs to be running (https://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash)also in run command must include --disable-private-mode <br />
-4. In setting.py SPLASH_URL=docker url <br /> DOWNLOADER_MIDDLEWARES= {
+4. In settings.py SPLASH_URL=docker url <br /> DOWNLOADER_MIDDLEWARES= {
             'scrapy_splash.SplashCookiesMiddleware': 723,
             'scrapy_splash.SplashMiddleware': 725,
             'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
