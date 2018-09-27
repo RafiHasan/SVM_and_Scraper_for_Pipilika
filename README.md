@@ -1,6 +1,6 @@
 # SVM_and_Scraper_for_Pipilika
 
-TASK 1.1(spider latestnews.py): <br />
+**TASK 1.1(spider latestnews.py):** <br />
 (cmd scrapy run spider latestnews.py) <br />
 1. Need to install scrapy(pip install scrapy) <br />
 2. Also may need to install pywin32(pip install pywin32) <br />
