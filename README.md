@@ -21,7 +21,7 @@
             'scrapy_splash.SplashDeduplicateArgsMiddleware': 100,
         } <br /> DUPEFILTER_CLASS= 'scrapy_splash.SplashAwareDupeFilter' <br /> HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage' <br /> ROBOTSTXT_OBEY = False <br />
 5. Scraped data is stored in latestnews.txt file <br />
-6. data is formated as (Like,title,date,Caterogy,details)(like is -1 if could not find the link) <br />
+6. data is formated as (Likecount,title,date,Caterogy,details)(like is -1 if could not find the link) <br />
 7. 250+ scroll page is scraped <br />
 
 
