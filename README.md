@@ -6,7 +6,7 @@
 2. Also may need to install pywin32(pip install pywin32) <br />
 3. Scraped data is stored in news.txt file <br />
 4. data is formated as (title,date,Caterogy,details) <br />
-5. 3200 scroll page is scraped <br />
+5. 121829 news article is scraped <br />
 
 ##**TASK 1.2(project lastnews):** <br />
 (cmd scrapy startproject lastnews (for creating project), scrapy crawl lnews(for start crawling)) <br />
