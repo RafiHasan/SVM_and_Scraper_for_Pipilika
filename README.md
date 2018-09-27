@@ -1,11 +1,11 @@
 # SVM_and_Scraper_for_Pipilika
 
-TASK 1.1(spider latestnews.py):
-(cmd scrapy run spider latestnews.py)
-1.Need to install scrapy(pip install scrapy)
-2.Also may need to install pywin32(pip install pywin32)
-3.Scraped data is stored in news.txt file
-4.data is formated as (title,date,Caterogy,details)
+TASK 1.1(spider latestnews.py):<br />
+(cmd scrapy run spider latestnews.py)<br />
+1.Need to install scrapy(pip install scrapy)<br />
+2.Also may need to install pywin32(pip install pywin32)<br />
+3.Scraped data is stored in news.txt file<br />
+4.data is formated as (title,date,Caterogy,details)<br />
 5.3200 scroll page is scraped
 
 TASK 1.2(project lastnews):
