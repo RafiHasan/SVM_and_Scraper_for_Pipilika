@@ -16,6 +16,7 @@
 4. In setting.py SPLASH_URL=docker url <br />
 5. Scraped data is stored in latestnews.txt file <br />
 6. data is formated as (Like,title,date,Caterogy,details)(like is -1 if could not find the link) <br />
+7. 250+ scroll page is scraped <br />
 
 
 ##**TASK 2(MultiSVM.py):** <br />
