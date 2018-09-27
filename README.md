@@ -1,7 +1,7 @@
 # SVM_and_Scraper_for_Pipilika (Python 3.5)
 
 ##**TASK 1.1(spider latestnews.py):** <br />
-(cmd scrapy genspider latestnews , scrapy run spider latestnews.py) <br />
+(cmd scrapy genspider latestnews (for creating the spider) , scrapy run spider latestnews.py (for start crawling)) <br />
 1. Need to install scrapy(pip install scrapy) <br />
 2. Also may need to install pywin32(pip install pywin32) <br />
 3. Scraped data is stored in news.txt file <br />
@@ -9,7 +9,11 @@
 5. 3200 scroll page is scraped <br />
 
 ##**TASK 1.2(project lastnews):** <br />
-(cmd scrapy startproject lastnews , scrapy crawl lnews) <br />
+(cmd scrapy startproject lastnews (for creating project), scrapy crawl lnews(for start crawling)) <br />
+<br />
+Previous part of the task one can only crawl into pages and collect raw html data. But the detail news page also contains total number of people liked the news which is controlled by js and dynamically created. For that scrapy cant directly excess it. For that this part is used splash(a js rendarer) for parsing the js genarated data into regular html so that scrapy can scrap them.Sometimes splash cant render the full page so some of the likecount data is missing.
+<br />
+<br />
 1. Docker toolbox needs to be installed(https://docs.docker.com/toolbox/toolbox_install_windows) <br />
 2. splash needs to be installed(pip install scrapy_splash) <br />
 3. splash server needs to be running (https://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash) also in run command must include --disable-private-mode <br />
